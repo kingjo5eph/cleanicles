@@ -19869,6 +19869,9 @@ fieldset {
   background: rgba(133,233,1, 0.1);
 }
 .get-service-main span {
+	    height: 85px;
+    display: flex;
+    align-items: flex-end;
   -webkit-transition: 0.4s;
   -ms-transition: 0.4s;
   transition: 0.4s;
@@ -19881,7 +19884,8 @@ fieldset {
 }
 
 .get-service-main img {
-  margin-bottom: 25px;
+    margin-bottom: 15px;
+    width: 42px;
 }
 
 .get-service-main h5 {
