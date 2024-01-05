@@ -19843,6 +19843,7 @@ fieldset {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 24px;
+  gap: 25px;
 }
 
 .get-service-main:hover {
@@ -19869,12 +19870,12 @@ fieldset {
   background: rgba(133,233,1, 0.1);
 }
 .get-service-main span {
-	    height: 85px;
-    display: flex;
-    align-items: flex-end;
-  -webkit-transition: 0.4s;
-  -ms-transition: 0.4s;
-  transition: 0.4s;
+	    height: 125px;
+	    display: flex;
+	    align-items: flex-end;
+	    -webkit-transition: 0.4s;
+	    -ms-transition: 0.4s;
+	    transition: 0.4s;
 }
 
 .get-service-main span img {
@@ -19885,12 +19886,12 @@ fieldset {
 
 .get-service-main img {
     margin-bottom: 15px;
-    width: 42px;
+    width: 60px;
 }
 
 .get-service-main h5 {
   color: #203066;
-  margin-bottom: 25px;
+  margin-bottom: 0;
 }
 
 .get-service-btn a {
